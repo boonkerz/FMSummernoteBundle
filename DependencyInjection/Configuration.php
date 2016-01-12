@@ -20,7 +20,7 @@ class Configuration implements ConfigurationInterface
 
         $rootNode
             ->children()
-                ->integerNode('width')->defaultValue(600)->end()
+                ->integerNode('width')->defaultValue(null)->end()
                 ->integerNode('height')->defaultValue(400)->end()
                 ->booleanNode('include_jquery')->defaultTrue()->end()
                 ->booleanNode('include_bootstrap')->defaultTrue()->end()
