@@ -14,7 +14,7 @@
     $.summernote.addPlugin({
         name: 'Media', // name of plugin
         buttons: { // buttons
-            elfinder: function () {
+            mediabundle: function () {
                 return tmpl.iconButton('fa fa-picture-o', {
                     event: 'mediabundle',
                     title: 'Mediabundle',
